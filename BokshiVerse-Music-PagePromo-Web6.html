@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BokshiVerse-Music-PagePromo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   *{
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+   }
+    body{
+      background-color: black;
+      font-family: 'Josefin Sans', sans-serif;
+      margin: 0px;
+     }
+     .don1{
+       position: relative;
+       height: 100vh;
+       width: 100%;
+     }
+     video{
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100vh;
+       width: 100%;
+       object-fit: cover;
+       position: none;
+       z-index: -5;
+       opacity: 0.2;
+     }
+     .don2{
+       position: absolute;
+       border: 2px solid #1B2631;
+       padding: 60px 90px;
+       top: 45%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background-color: #1B2631;
+       box-shadow: 25px 25px 40px black;
+       border-radius: 7px;
+     }
+     p{
+       position: absolute;
+       top: 37%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       font-weight: bolder;
+       color: red;
+       font-size: 145%;
+     }
+     .link{
+       position: absolute;
+       top: 47%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       border: 2px solid #00337C;
+       padding: 5px;
+       background-color: #00337C;
+       color: white;
+       border-radius: 3px;
+       box-shadow: 2px 2px 5px black;
+       border-radius: 5px;
+     }
+     .link:hover{
+       position: absolute;
+       top: 47%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       border: 2px solid #00337C;
+       padding: 5px;
+       background-color: #00337C;
+       color: white;
+       border-radius: 3px;
+       box-shadow: 2px 2px 5px blue;
+       border-radius: 5px;
+     }
+  </style>
+  </head>
+  <body>
+    <video autoplay loop muted>
+      <source src="video1.mp4">
+    </video>
+    <div class="don1">
+      <div class="don2">
+      </div>
+      <p>FOLLOW US</p>
+      <div class="link">
+       <i class='fa fa-facebook-f'></i>
+       <a href="https://www.facebook.com/profile.php?id=100087048835016"><button style="font-family:'Josefin Sans', sans-serif;font-weight: bolder;background-color: #00337C;color:white;border:2px solid #00337C">BokshiVerse</button>
+       </a>
+      </div>
+    </div>
+  </body>
+</html>
